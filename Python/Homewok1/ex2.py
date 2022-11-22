@@ -1,0 +1,7 @@
+print ("Введите X")
+x = int(input())
+print ("Введите Y")
+y = int(input())
+print ("Введите Z")
+z = int(input())
+print (not (x or y or z) == (not x) or (not y) or (not z) )
